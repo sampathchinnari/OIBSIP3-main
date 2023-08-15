@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.PXF0He7syIz_THNtCErukAHaE8&pid=Api&P=0&h=180");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color:rgb(8, 1, 14);
+  }
+  #convert:hover {
+    background-color: #bcc768;
+  }
+  h1 {
+    font-family:'Arial Narrow Bold','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    font-size:40px;
+    font-weight: 500px;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    color:black;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: black;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color:black;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: black;  
+  }
+  :-ms-input-placeholder {  
+     color:black;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color:white;
+    background-color:rgb(12, 3, 20);
+  }
